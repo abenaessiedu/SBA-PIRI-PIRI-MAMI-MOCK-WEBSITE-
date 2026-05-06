@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MAGAZINE LAYOUT </title>
+    <style>
+        body {
+            background-color: #ff6fff;
+        }
+
+        .button {
+            background-color: yellow position;
+            padding: 10px 20px; 
+            transition-property: background-color;
+            transition-duration: 2ms;
+        }
+        .button:hover {
+            background-color: orange
+        }
+            
+
+        table {
+            border: 3px solid black
+        }
+
+        th {
+            text-align: center;
+        }
+
+        .intro-collages {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .image-gallery img {
+            width: 200px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0.3);
+        }
+    </style>
+</head>
+
+<body> <!--for this page we need 1 table, 1 form, to use Flexbox, and to use internal styling -->
+    <div id=".main_container">
+        <section id="the header">
+            <header> <!--this is going to be where the tabs sit: home, about me, and blog section-->
+                <nav class="navigation bar"> <!--this is the navigation list on the top of the homepage-->
+                    <nav style="display:flex; justify-content:center;">
+                        <div class="navigation container">
+                            <!--I want this to be an image instead ot the word LOGO-->
+                            <div>
+                                <ul class="navigation bar menu">
+                                    <ul style="list-style: none; padding: 0; display: flex; gap: 20px;">
+                                        <!-- this is going to be the linked pages at the top of the page.-->
+                                        <li class="link 1"> <!--this is the HOME LINK-->
+                                            <a href="./piripirimamisba.html" class="the HOME link"> HOME </a>
+                                        </li>
+
+                                        <li class="link 2"> <!--this is the ABOUT LINK-->
+                                            <a href="./aboutppm.html" class="the ABOUT link"> ABOUT </a>
+
+                                        <li class="link 3"> <!--this is the MAG LINK-->
+                                            <a href="./MAG.html" class="the MAG link"> MAG </a>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </nav>
+            </header>
+        </section>
+        <hr>
+        <div style="text-align: center;">
+            <header>
+                <h1> THE MAGAZINE </h1>
+            </header>
+        </div>
+        <div style="text-align: center;">
+            <h4> This is the MOCKUP of PIRI PIRI MAGAZINE </h4>
+        </div>
+        <div class="intro-collages">
+            <img src="./IMAGES/food2.jpeg" alt="Image 1">
+            <img src="./IMAGES/culture2.jpeg" alt="Image 2">
+            <img src="./IMAGES/wellness2.jpeg" alt="Image 3">
+        </div>
+
+
+
+        <!--FORM-->
+        <div style="text-align: center;"> <!--this is going to be the form -->
+            <form action="/submit" method="post">
+                Username <br>
+                <input type="text" name="First Name" placeholder="Enter Your Username" required> <br>
+                Password <br>
+                <input type="text" name="Last Name" placeholder="Enter Your Password" required> <br>
+                <button style="background-color: yellow; transition-property: background-color; transition-duration: 1s; "> LOGIN </button>
+            </form>
+        </div>
+        <br>
+
+        <!--TABLE-->
+        <div style="text-align: center;"> <!--this is going to be the table-->
+            <h2> THE SPRING ISSUE </h2>
+            <h3> [EX: ARIES] </h3>
+        </div>
+
+    </div>
+
+    <div>
+        <table style="width:600px; height: 300px; border-collapse: collapse; font-size: 20px; margin: 20px auto;">
+            <caption style="font-size: 22px; font-weight:bold; margin-bottom: 10px;">
+                [MAGAZINE LAYOUT]
+            </caption>
+            <tread>
+                <tr>
+                    <th style="padding: 11px; border: 2px solid black;"> FOOD </th>
+                    <th style="padding: 11px; border: 2px solid black;"> CULTURE </th>
+                    <th style="padding: 11px; border: 2px solid black;"> WELLNESS </th>
+
+                </tr>
+            </tread>
+            <tbody>
+                <tr>
+                    <td style="padding: 11px; border: 3px solid black;"> THE BREAKFAST CLUB :THE BREAKFAST COLUMN </td>
+                    <td style="padding: 11px; border: 3px solid black;"> COZY: ARCHETECTURAL/INTERIOR COLUMN </td>
+                    <td style="padding: 11px; border: 3px solid black;"> MAKE WE JINJA: HEALTH COLUMN </td>
+
+
+                </tr>
+                <tr>
+                    <td style="padding: 11px; border: 3px solid black;"> LUNCHBOX: LUNCH COLUMN </td>
+                    <td style="padding: 11px; border: 3px solid black;"> PILE OF STUFF: FASHION COLUMN</td>
+                    <td style="padding: 11px; border: 3px solid black;"> COST OF DOING BUSINESS: FINANCIAL COLUMN </td>
+                </tr>
+                <tr>
+                    <td style="padding: 11px; border: 3px solid black;"> SUPPER: DINNER COLUMN </td>
+                    <td style="padding: 11px; border: 3px solid black;"> BEDHEAD: HAIR COLUMN </td>
+                    <td style="padding: 11px; border: 3px solid black;"> SKINDEEP: SKINCARE </td>
+                </tr>
+                <tr>
+                    <td style="padding: 11px; border: 3px solid black;"> MISE-EN-PLACE: SNACKS/DRINK COLUMN </td>
+                    <td style="padding: 11px; border: 3px solid black;"> GLOSS: MAKEUP COLUMN </td>
+                    <td style="padding: 11px; border: 3px solid black;"> SULCI: MENTAL HEALTH COLUMN</td>
+                </tr>
+                <tr>
+                    <td style="padding: 11px; border: 3px solid black;"> SUNDAY SWEETS: DESSERT COLUMN </td>
+                    <td style="padding: 11px; border: 3px solid black;"> MX MEDIA: ENTERTAINMENT COLUMN </td>
+                    <td style="padding: 11px; border: 3px solid black;"> GUMBODY; FITNESS COLUMN </td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+
+    <!--FLEXBOX, TO DISPLAY THE IMAGES-->
+    <div class="image-gallery">
+        <img src="./IMAGES/IMG_6757 (1).jpeg" alt="Image 1">
+        <img src="./IMAGES/IMG_6756 (1).jpeg" alt="Image 2">
+        <img src="./IMAGES/IMG_6755.jpeg" alt="Image 3">
+        <img src="./IMAGES/IMG_6754.jpeg" alt="Image 4">
+        <img src="./IMAGES/IMG_6753.jpeg" alt="Image 5">
+        <img src="./IMAGES/IMG_6752.jpeg" alt="Image 6">
+        <img src="./IMAGES/IMG_6751.jpeg" alt="Image 7">
+        <img src="./IMAGES/IMG_6750.jpeg" alt="Image 8">
+        <img src="./IMAGES/IMG_6749.jpeg" alt="Image 9">
+        <img src="./IMAGES/IMG_6748.jpeg" alt="Image 10">
+        <img src="./IMAGES/IMG_6758.jpeg" alt="Image 11">
+        <img src="./IMAGES/IMG_6759.jpeg" alt="Image 12">
+        <img src="./IMAGES/IMG_6760.jpeg" alt="Image 13">
+        <img src="./IMAGES/IMG_6761.jpeg" alt="Image 14">
+
+    </div>
+
+    </div>
+</body>
+
+</html>

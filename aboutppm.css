@@ -1,0 +1,29 @@
+    body {
+            background-color: #ff6fff; 
+        }
+
+    h1 {
+        font-size: xxx-large; color: yellow; 
+        transition-property: width, height;
+        transition-duration: 2s;
+    }
+    h1:hover {
+        font-size: 200px;
+    }
+
+
+    h2 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: darkmagenta;
+        transition-property: font;
+        transition-duration: 2s;
+    }
+     h2:hover {
+        width: 500px;
+        heigh: 500px;
+        
+    }
+
+
+
+
