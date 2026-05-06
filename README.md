@@ -3,15 +3,13 @@ This is a mock website for a digital media brand and magazine I will be launchin
 ---
 
 ## **Table of Contents**
-1. [HTML](#features)
-2. [CSS](#installation)
-3. [IMAGES](#usage)
-4. [Contact](#contact)
-5. [Acknowledgements](#acknowledgements)
+1. [HTML]/[CSS]
+2. [Contact](#contact)
+3. [Acknowledgements](#acknowledgements)
 
 ---
 
-## **Features**
+## **HTML/CSS**
 -This webpage is made up of three different pages: a Home page, an ABOUT page, and a MAGAZINE portfolio page. 
 - This project features key elements of HTML and CSS including:
   HTML: the HTML tags include (but not limited to): <nav>, <img>, <ul>, <li>, <header>, <section>, <table>, <h1>, <form>, <div>, etc. 
@@ -22,10 +20,16 @@ This is a mock website for a digital media brand and magazine I will be launchin
 
 ---
 
-
 SOFTWARE USED: 
 -VS Code 
 - Git
+----
+## **CONTACT:** 
+ABENA ESSIEDU 
+email:aessiedu98@gmail.com
+----
+## **ACKNOWLEDGEMENTS**
+I'd like to thank my instructors Jade Del Rosario-Bell, and Quinn Shannon for teaching me the principles needed to create this website. And I would like to thank myself for my hard work. 
 
 
    git clone (https://github.com/abenaessiedu/SBA-PIRI-PIRI-MAMI-MOCK-WEBSITE-)
